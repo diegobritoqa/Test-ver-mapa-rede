@@ -21,6 +21,7 @@ end
 
 
 class MapaGoogle < SitePrism::Page 
+    # herda os elementos da class ElementosMapa
     section :mapa_google, ElementosMapa, '#mapSection'
 end
 
